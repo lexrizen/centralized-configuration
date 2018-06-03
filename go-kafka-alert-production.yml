@@ -22,7 +22,7 @@ emailConfig:
   emailSender: Sender
   emailFrom: email@from.com
   emailAuthUserName: email@from.com
-  emailAuthPassword: password
+  emailAuthPassword: '{cipher}password'
 dbConfig:
   mongoHost: localhost
   mongoPort: 27017
